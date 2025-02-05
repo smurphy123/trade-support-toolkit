@@ -1,0 +1,5 @@
+Order ID,Symbol,Price,Status
+10001,AAPL,150.25,Filled
+10002,TSLA,750.5,Rejected
+10003,GOOGL,2800.75,Partially Filled
+10004,MSFT,320.0,Canceled
