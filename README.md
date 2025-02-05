@@ -4,7 +4,7 @@ Trade Log Monitoring Script
 ## 📌 Overview
 This Python script reads FIX log messages, extracts trade details, and flags potential trade anomalies such as rejected orders.
 
-## 📂 Project Structure
+## Project Structure
 
 ### 📁 trade-support-toolkit 
 ├── 📄 trade_log_monitor.py 
@@ -38,8 +38,9 @@ This Python script reads FIX log messages, extracts trade details, and flags pot
     python trade_log_monitor.py
 
 📊 Sample Output (trade_log_output.csv)
-Order ID	Symbol	Price	Status
-10001	AAPL	150.25	Filled
-10002	TSLA	750.50	🚨 Rejected!
-10003	GOOGL	2800.75	Partially Filled
-10004	MSFT	320.00	Canceled
+| Order ID | Symbol | Price   | Status           |
+| -------- | ------ | ------- | ---------------- |
+| 10001	  | AAPL	  | 150.25  | Filled           |
+| 10002	  | TSLA	  | 750.50  | Rejected         |
+| 10003	  | GOOGL  | 2800.75 | Partially Filled |
+| 10004	  | MSFT	  | 320.00	| Canceled         |
