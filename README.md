@@ -25,7 +25,7 @@ This Python script reads FIX log messages, extracts trade details, and flags pot
 ## 🛠️ Setup Instructions
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/your-username/trade-support-toolkit.git
+   git clone https://github.com/smurphy123/trade-support-toolkit.git
    cd trade-support-toolkit
 
 2. **Activate Virtual Environment**
