@@ -5,13 +5,14 @@ Trade Log Monitoring Script
 This Python script reads FIX log messages, extracts trade details, and flags potential trade anomalies such as rejected orders.
 
 ## 📂 Project Structure
-📁 trade-support-toolkit 
+
+###📁 trade-support-toolkit 
 ├── 📄 trade_log_monitor.py 
-Python script to parse trade logs 
+###Python script to parse trade logs 
 ├── 📄 sample_fix_log.txt 
-Sample FIX messages 
+###Sample FIX messages 
 ├── 📄 trade_log_output.csv 
-CSV file with parsed trades (generated) 
+###CSV file with parsed trades (generated) 
 ├── 📄 README.md # Project documentation
 
 
