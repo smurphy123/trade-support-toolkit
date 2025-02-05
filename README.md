@@ -43,9 +43,3 @@ Order ID	Symbol	Price	Status
 10002	TSLA	750.50	🚨 Rejected!
 10003	GOOGL	2800.75	Partially Filled
 10004	MSFT	320.00	Canceled
-
-
-📌 **How to Create the File:**  
-1. In your repo folder, run:
-   ```bash
-   touch README.md
