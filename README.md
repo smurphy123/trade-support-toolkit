@@ -29,13 +29,13 @@ This Python script reads FIX log messages, extracts trade details, and flags pot
    cd trade-support-toolkit
 
 2. **Activate Virtual Environment**
-'''bash
-python3 -m venv venv
-source venv/bin/activate
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
 
-3. Run the Script
-'''bash
-python trade_log_monitor.py
+3. **Run the Script**
+    ```bash
+    python trade_log_monitor.py
 
 📊 Sample Output (trade_log_output.csv)
 Order ID	Symbol	Price	Status
